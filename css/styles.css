@@ -155,10 +155,11 @@
     display: block;
   }
 
-  /*.table-header {
+  .table-header {
     display: none;
   }
-  .table-cell {
+
+  /*.table-cell {
     display: block;
     border: none;
     width: 100% !important;
