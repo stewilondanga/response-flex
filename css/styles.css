@@ -138,10 +138,11 @@
   width: 40%;
 }
 
-/*.table-cell:nth-child(2) {
+.table-cell:nth-child(2) {
   width: 30%;
 }
-.table-cell:nth-child(3) {
+
+/*.table-cell:nth-child(3) {
   width: 15%;
 }
 .table-cell:nth-child(4) {
