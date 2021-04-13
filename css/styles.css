@@ -146,10 +146,11 @@
   width: 15%;
 }
 
-/*.table-cell:nth-child(4) {
+.table-cell:nth-child(4) {
   width: 15%;
 }
-@media screen and (max-width: 1024px) {
+
+/*@media screen and (max-width: 1024px) {
   .table-row {
     display: block;
   }
