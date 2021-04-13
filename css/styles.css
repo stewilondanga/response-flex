@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,67 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+.table-container, .table-row {
+  display: flex;
+}
+.table-container{
+  flex-direction: column;
+  border: 1px solid #000;
+}
+.table-header {
+  display: flex;
+  background: #0099FF;
+  color: #FFF;
+}
+.table-cell {
+  flex-grow: 1;
+  border-right: 1px solid #000;
+  padding: 10px;
+}
+.table-cell:last-child {
+  border: none;
+}
+.table-row:nth-child(even) {
+  background: #F0F0F0;
+}
+.table-header .table-cell {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.table-cell:nth-child(1) {
+  width: 40%;
+}
+.table-cell:nth-child(2) {
+  width: 30%;
+}
+.table-cell:nth-child(3) {
+  width: 15%;
+}
+.table-cell:nth-child(4) {
+  width: 15%;
+}
+@media screen and (max-width: 1024px) {
+  .table-row {
+    display: block;
+  }
+  .table-header {
+    display: none;
+  }
+  .table-cell {
+    display: block;
+    border: none;
+    width: 100% !important;
+  }
+  .table-cell:before {
+    content: attr(data-heading);
+    display: block;
+    color: #0099FF;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
 }
 
 #contact h1 {
