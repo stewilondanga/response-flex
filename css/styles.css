@@ -120,10 +120,11 @@
   padding: 10px;
 }
 
-/*.table-cell:last-child {
+.table-cell:last-child {
   border: none;
 }
-.table-row:nth-child(even) {
+
+/*.table-row:nth-child(even) {
   background: #F0F0F0;
 }
 .table-header .table-cell {
