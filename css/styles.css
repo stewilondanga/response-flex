@@ -124,10 +124,11 @@
   border: none;
 }
 
-/*.table-row:nth-child(even) {
+.table-row:nth-child(even) {
   background: #F0F0F0;
 }
-.table-header .table-cell {
+
+/*.table-header .table-cell {
   text-align: center;
   font-weight: bold;
   font-size: 1.1em;
