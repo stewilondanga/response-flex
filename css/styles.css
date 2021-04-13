@@ -151,10 +151,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-  /*.table-row {
+  .table-row {
     display: block;
   }
-  .table-header {
+
+  /*.table-header {
     display: none;
   }
   .table-cell {
