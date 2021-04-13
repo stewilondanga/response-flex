@@ -128,12 +128,13 @@
   background: #F0F0F0;
 }
 
-/*.table-header .table-cell {
+.table-header .table-cell {
   text-align: center;
   font-weight: bold;
   font-size: 1.1em;
 }
-.table-cell:nth-child(1) {
+
+/*.table-cell:nth-child(1) {
   width: 40%;
 }
 .table-cell:nth-child(2) {
