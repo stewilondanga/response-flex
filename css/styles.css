@@ -103,11 +103,12 @@
   display: flex;
 }
 
-/*.table-container{
+.table-container {
   flex-direction: column;
   border: 1px solid #000;
 }
-.table-header {
+
+/*.table-header {
   display: flex;
   background: #0099FF;
   color: #FFF;
