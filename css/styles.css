@@ -134,10 +134,11 @@
   font-size: 1.1em;
 }
 
-/*.table-cell:nth-child(1) {
+.table-cell:nth-child(1) {
   width: 40%;
 }
-.table-cell:nth-child(2) {
+
+/*.table-cell:nth-child(2) {
   width: 30%;
 }
 .table-cell:nth-child(3) {
