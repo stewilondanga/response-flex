@@ -108,12 +108,13 @@
   border: 1px solid #000;
 }
 
-/*.table-header {
+.table-header {
   display: flex;
   background: #0099FF;
   color: #FFF;
 }
-.table-cell {
+
+/*.table-cell {
   flex-grow: 1;
   border-right: 1px solid #000;
   padding: 10px;
