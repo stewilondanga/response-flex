@@ -159,12 +159,13 @@
     display: none;
   }
 
-  /*.table-cell {
+  .table-cell {
     display: block;
     border: none;
     width: 100% !important;
   }
-  .table-cell:before {
+
+  /*.table-cell:before {
     content: attr(data-heading);
     display: block;
     color: #0099FF;
